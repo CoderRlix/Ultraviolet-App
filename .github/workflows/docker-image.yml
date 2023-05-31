@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: ["main"]
   schedule:
-    - cron: "30 12 * * 0" # Run once every Sunday
+    - cron: "40 12 * * 0"
 
 jobs:
   push_to_registry:
